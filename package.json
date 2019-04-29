@@ -1,0 +1,11 @@
+{
+  "name": "wasm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loader.js",
+  "scripts": {
+    "start": "wat2wasm main.wat && node loader.js"
+  },
+  "author": "Iknaxyo",
+  "license": "ISC"
+}
